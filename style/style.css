@@ -17,7 +17,7 @@ section.content {
 /* --------------- HEADER --------------- */
 header.left-header {
   height: calc(100vh - 60px);
-  width: 100px;
+  width: 50px;
   background-color: mediumseagreen;
 }
 
@@ -25,9 +25,10 @@ header.left-header {
 /* --------------- MAIN --------------- */
 main {
   height: calc(100vh - 60px);
-  width: calc(100vw - 100px);
+  width: calc(100vw - 50px);
   background-color: #141922;
   overflow: auto;
+  color: #7a7d81;
 }
 
 div.call-to-action {
@@ -45,6 +46,23 @@ section {
   /* Da togliere */
   border: 2px solid indianred;
 }
+
+main .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main article {
+  width: calc((100% / 2) - 1rem);
+  min-height: 100px;
+  background-color: #cba953;
+  border: 2px solid brown;
+  margin-right: 1rem;
+}
+
+
+
 
 /* --------------- TASKBAR --------------- */
 nav.taskbar {
