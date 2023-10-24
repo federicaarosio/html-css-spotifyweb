@@ -52,17 +52,16 @@ section {
 main .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 
 main article {
-  width: calc((100% / 2) - .5rem);
-  /* DA RIVEDERE, È NECESSARIO? */
+  width: calc((100% / 2) - 1rem);
   height: 100px;
   background-color: #cba953;
   border: 2px solid brown;
+  margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -95,12 +94,20 @@ nav.taskbar {
   }
 }
 
+
+
 /* -- MD: screen almeno 768px -- */
 @media screen and (min-width: 768px) {
-
+  main article {
+    width: calc((100% / 4) - 1rem);
+  }
 }
+
+
 
 /* -- LG: screen almeno 992px -- */
 @media screen and (min-width: 992px) {
-
+  main article {
+    width: calc((100% / 6) - 1rem);
+  }
 }
