@@ -73,6 +73,7 @@ ul.top-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1rem 0;
 }
 
 ul.top-menu li {
@@ -88,7 +89,6 @@ section.made-for,
 section.popular {
   min-height: 200px;
   /* Da togliere */
-  /* border: 2px solid indianred; */
   padding: .5rem;
 }
 
@@ -115,10 +115,12 @@ div.text-wrapper {
 
 h1 {
   font-size: 1rem;
+  padding: 1rem 0;
 }
 
 h2 {
   font-size: .7rem;
+  padding: .5rem 0;
 }
 
 article p.author {
