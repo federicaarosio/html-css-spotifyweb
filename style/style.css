@@ -4,21 +4,17 @@
   padding: 0;
 }
 
-
 body {
-  height: calc(100vh - 60px);
   font-family: 'Montserrat', sans-serif;
   font-size: .8rem;
 }
 
-section.content {
-  display: flex;
-}
+
+
 
 /* --------------- LEFT-HEADER --------------- */
 header.left-header {
   height: calc(100vh - 60px);
-  width: 50px;
   background-color: black;
 }
 
@@ -53,6 +49,9 @@ main {
   height: calc(100vh - 60px);
   width: calc(100vw - 50px);
   background-color: #141922;
+  position: fixed;
+  top: 0;
+  right: 0;
   overflow: auto;
   color: #7a7d81;
 }
@@ -112,6 +111,10 @@ div.text-wrapper {
   text-align: center;
 }
 
+article img.cover-pop {
+  border-radius: 50%;
+}
+
 
 h1 {
   font-size: 1rem;
@@ -131,6 +134,8 @@ article p.author {
 .white-text {
   color: white;
 }
+
+
 
 
 /* --------------- TASKBAR --------------- */
