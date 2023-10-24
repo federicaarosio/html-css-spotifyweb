@@ -15,7 +15,7 @@ section.content {
 
 
 /* --------------- HEADER --------------- */
-header {
+header.left-header {
   height: calc(100vh - 60px);
   width: 100px;
   background-color: mediumseagreen;
@@ -28,6 +28,22 @@ main {
   width: calc(100vw - 100px);
   background-color: #141922;
   overflow: auto;
+}
+
+div.call-to-action {
+  height: 60px;
+  background-color: darkcyan;
+}
+
+main > header {
+  height: 60px;
+  background-color: #2c374a;
+}
+
+section {
+  min-height: 200px;
+  /* Da togliere */
+  border: 2px solid indianred;
 }
 
 /* --------------- TASKBAR --------------- */
