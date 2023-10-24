@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-/* -- XS: screen sotto 576px -- */
 
 body {
   height: calc(100vh - 60px);
@@ -22,6 +21,11 @@ header.left-header {
   width: 50px;
   background-color: mediumseagreen;
 }
+
+/* nav.column {
+
+} */
+
 
 
 /* --------------- MAIN --------------- */
@@ -52,17 +56,15 @@ section {
 main .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   width: 100%;
-  padding: 1rem 0 1rem 1rem;
 }
 
 main article {
-  width: calc((100% / 2) - 1rem);
+  width: calc((100% - 1rem) / 2);
   height: 100px;
   background-color: #cba953;
   border: 2px solid brown;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
 }
 
 
@@ -99,7 +101,7 @@ nav.taskbar {
 /* -- MD: screen almeno 768px -- */
 @media screen and (min-width: 768px) {
   main article {
-    width: calc((100% / 4) - 1rem);
+    width: calc((100% - 3rem) / 4);
   }
 }
 
@@ -108,6 +110,6 @@ nav.taskbar {
 /* -- LG: screen almeno 992px -- */
 @media screen and (min-width: 992px) {
   main article {
-    width: calc((100% / 6) - 1rem);
-  }
+    width: calc((100% - 5rem) / 6);
+  } 
 }
