@@ -4,19 +4,38 @@
   padding: 0;
 }
 
-main {
+body {
   height: calc(100vh - 60px);
-  background-color: #141922;
+  background-color: orange;
 }
 
+section.content {
+  display: flex;
+}
+
+
 /* --------------- HEADER --------------- */
+header {
+  height: calc(100vh - 60px);
+  width: 100px;
+  background-color: mediumseagreen;
+}
 
 
 /* --------------- MAIN --------------- */
-
+main {
+  height: calc(100vh - 60px);
+  width: calc(100vw - 100px);
+  background-color: #141922;
+  overflow: auto;
+}
 
 /* --------------- TASKBAR --------------- */
 nav.taskbar {
   height: 60px;
-  background-color: red;
+  width: 100vw;
+  background-color: orchid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
