@@ -15,7 +15,7 @@ section.content {
 }
 
 
-/* --------------- HEADER --------------- */
+/* --------------- LEFT-HEADER --------------- */
 header.left-header {
   height: calc(100vh - 60px);
   width: 50px;
@@ -57,14 +57,26 @@ main {
   color: #7a7d81;
 }
 
+/* Call to action */
 div.call-to-action {
   height: 60px;
   background-color: darkcyan;
 }
 
+/* Main-header */
 main > header {
   height: 60px;
   background-color: #2c374a;
+}
+
+ul.top-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.top-menu li {
+  width: calc(100% / 4);
 }
 
 section.recently-played,
