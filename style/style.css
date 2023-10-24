@@ -50,15 +50,17 @@ section {
 main .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
+  padding: 1rem;
 }
 
 main article {
-  width: calc((100% / 2) - 1rem);
-  min-height: 100px;
+  width: calc((100% / 2) - .5rem);
+  height: 100px;
   background-color: #cba953;
   border: 2px solid brown;
-  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -73,3 +75,8 @@ nav.taskbar {
   bottom: 0;
   left: 0;
 }
+
+
+
+
+/* --------------- MEDIA QUERIES --------------- */
