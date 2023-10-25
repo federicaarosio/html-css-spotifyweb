@@ -29,14 +29,37 @@ nav.column {
   height: 100%;
 }
 
+nav.column li {
+  display: flex;
+  color: #6e6e6e;
+}
+
+
+div.logo {
+  height: 2rem;
+  width: 100%;
+  background-color: lightgreen;
+  border: 2px solid midnightblue;
+  color: white;
+}
+
 ul {
   list-style: none;
 }
+
+
 
 ul.menu > li {
   height: 2rem;
   width: 100%;
   background-color: firebrick;
+  border: 2px solid midnightblue;
+}
+
+ul.playlist > li {
+  height: 2rem;
+  width: 100%;
+  background-color: lightblue;
   border: 2px solid midnightblue;
 }
 
@@ -157,11 +180,11 @@ nav.taskbar {
 /* -- S: screen almeno 576px -- */
 @media screen and (min-width: 576px) {
   header.sidebar {
-    width: 200px;
+    width: 250px;
   }
 
   main {
-    width: calc(100vw - 200px);
+    width: calc(100vw - 250px);
   }
 
   ul.top-menu li {
