@@ -17,7 +17,7 @@ div.content-wrapper {
 
 /* --------------- SIDEBAR --------------- */
 header.sidebar {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   width: 50px;
   background-color: black;
 }
@@ -97,7 +97,7 @@ i.fa-square-plus {
 
 /* --------------- MAIN --------------- */
 main {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   width: calc(100vw - 50px);
   background-color: #141922;
   overflow: auto;
@@ -217,13 +217,24 @@ article p.author {
 
 
 /* --------------- TASKBAR --------------- */
-nav.taskbar {
-  height: 60px;
+footer.taskbar {
+  height: 70px;
   width: 100vw;
   background-color: #282828;
   position: fixed;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div.container-left,
+footer div.container-center,
+footer div.container-right {
+  height: 100%;
+  min-width: 200px;
+  border: 1px solid lightslategray;
 }
 
 
