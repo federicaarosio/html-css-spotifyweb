@@ -45,6 +45,11 @@ div.logo {
   padding: .5rem 0;
 }
 
+img.spotify-logo {
+  width: 150px;
+  display: none;
+}
+
 ul {
   list-style: none;
 }
@@ -202,12 +207,18 @@ nav.taskbar {
     width: calc(100% / 3);
   }
 
+  i.fa-spotify {
+    display: none;
+  }
+
   div.nav-voice,
-  div.playlist-container {
+  div.playlist-container,
+  img.spotify-logo {
     display: inline-block;
   }
 
-  nav.column li {
+  nav.column li,
+  div.logo {
   justify-content: flex-start;
   padding: .5rem 1rem;
 }
