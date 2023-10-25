@@ -66,6 +66,10 @@ ul.account-profile > li {
   font-size: 1.3rem;
 }
 
+li.nav-element {
+  border-left: 2px solid transparent;
+}
+
 div.nav-voice {
   display: none;
   padding-left: .5rem;
@@ -125,6 +129,18 @@ ul.top-menu li {
   font-weight: bold;
   font-size: .6rem;
   width: calc(100% / 4);
+  position: relative;
+}
+
+ul.top-menu li::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 100%;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  border-bottom: 2px solid #adff2f;
 }
 
 section.recently-played,
@@ -226,6 +242,11 @@ nav.taskbar {
   justify-content: flex-start;
   padding: .5rem 1rem;
 }
+
+  li.left-border-green {
+    border-left: 2px solid #adff2f;
+    display: inline-block;
+  }
 }
 
 
