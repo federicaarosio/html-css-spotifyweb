@@ -10,10 +10,13 @@ body {
 }
 
 
+div.content-wrapper {
+  display: flex;
+}
 
 
-/* --------------- LEFT-HEADER --------------- */
-header.left-header {
+/* --------------- SIDEBAR --------------- */
+header.sidebar {
   height: calc(100vh - 60px);
   width: 50px;
   background-color: black;
@@ -50,9 +53,6 @@ main {
   height: calc(100vh - 60px);
   width: calc(100vw - 50px);
   background-color: #141922;
-  position: fixed;
-  top: 0;
-  right: 0;
   overflow: auto;
   color: #7a7d81;
 }
@@ -156,7 +156,7 @@ nav.taskbar {
 
 /* -- S: screen almeno 576px -- */
 @media screen and (min-width: 576px) {
-  header.left-header {
+  header.sidebar {
     width: 200px;
   }
 
