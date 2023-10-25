@@ -27,6 +27,7 @@ nav.column {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  font-weight: bold;
 }
 
 nav.column li,
@@ -39,14 +40,13 @@ div.logo {
 
 
 div.logo {
-  /* height: 2rem; */
   width: 100%;
   color: white;
   padding: .5rem 0;
 }
 
 img.spotify-logo {
-  width: 150px;
+  width: 130px;
   display: none;
 }
 
@@ -58,7 +58,6 @@ ul {
 ul.menu > li,
 ul.playlist > li,
 ul.account-profile > li {
-  /* height: 2rem; */
   width: 100%;
   padding: .5rem 0;
 }
@@ -83,8 +82,13 @@ div.playlist-name {
 h2.playlist-title {
   color: white;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 1rem 0 .5rem 1rem;
+}
+
+i.fa-square-plus {
+  color: #a3a3a3;
+  font-size: 2.5rem;
 }
 
 /* --------------- MAIN --------------- */
