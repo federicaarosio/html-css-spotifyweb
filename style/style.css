@@ -129,17 +129,21 @@ ul.top-menu li {
   font-weight: bold;
   font-size: .6rem;
   width: calc(100% / 4);
+  padding: .5rem 0;
+}
+
+ul.top-menu li.menu-list {
   position: relative;
 }
 
-ul.top-menu li::before {
+ul.top-menu li.menu-list::before {
   content: "";
   position: absolute;
   width: 20px;
   height: 2px;
-  top: 100%;
-  transform: translate(-50%, 0%);
+  top: 75%;
   left: 50%;
+  transform: translate(-50%, 0%);  
   border-bottom: 2px solid #adff2f;
 }
 
