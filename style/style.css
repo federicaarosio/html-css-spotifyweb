@@ -29,7 +29,8 @@ nav.column {
   height: 100%;
 }
 
-nav.column li {
+nav.column li,
+div.logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +41,6 @@ nav.column li {
 div.logo {
   height: 2rem;
   width: 100%;
-  background-color: lightgreen;
   border: 2px solid midnightblue;
   color: white;
 }
@@ -56,7 +56,6 @@ ul.account-profile > li {
   height: 2rem;
   width: 100%;
   border: 2px solid midnightblue;
-  padding: .5rem;
 }
 
 .column i {
@@ -186,6 +185,15 @@ nav.taskbar {
   ul.top-menu li {
     width: calc(100% / 3);
   }
+
+  div.nav-voice {
+    display: inline-block;
+  }
+
+  nav.column li {
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
 }
 
 
