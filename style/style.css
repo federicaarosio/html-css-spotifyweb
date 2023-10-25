@@ -248,9 +248,14 @@ footer div.container-left,
 footer div.container-center,
 footer div.container-right {
   height: 100%;
-  min-width: 200px;
+  /* min-width: 200px; */
   /* da togliere */
   border: 1px solid lightslategray;
+}
+
+footer div.container-left,
+footer div.container-right {
+  width: 200px;
 }
 
 footer img.small-cover {
