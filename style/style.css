@@ -39,9 +39,10 @@ div.logo {
 
 
 div.logo {
-  height: 2rem;
+  /* height: 2rem; */
   width: 100%;
   color: white;
+  padding: .5rem 0;
 }
 
 ul {
@@ -52,8 +53,9 @@ ul {
 ul.menu > li,
 ul.playlist > li,
 ul.account-profile > li {
-  height: 2rem;
+  /* height: 2rem; */
   width: 100%;
+  padding: .5rem 0;
 }
 
 .column i {
@@ -207,7 +209,7 @@ nav.taskbar {
 
   nav.column li {
   justify-content: flex-start;
-  padding: 0 1rem;
+  padding: .5rem 1rem;
 }
 }
 
