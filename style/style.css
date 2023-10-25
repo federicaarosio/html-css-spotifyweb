@@ -31,6 +31,8 @@ nav.column {
 
 nav.column li {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #6e6e6e;
 }
 
@@ -48,28 +50,22 @@ ul {
 }
 
 
-
-ul.menu > li {
-  height: 2rem;
-  width: 100%;
-  background-color: firebrick;
-  border: 2px solid midnightblue;
-}
-
-ul.playlist > li {
-  height: 2rem;
-  width: 100%;
-  background-color: lightblue;
-  border: 2px solid midnightblue;
-}
-
+ul.menu > li,
+ul.playlist > li,
 ul.account-profile > li {
   height: 2rem;
   width: 100%;
-  background-color: goldenrod;
   border: 2px solid midnightblue;
+  padding: .5rem;
 }
 
+.column i {
+  font-size: 1.3rem;
+}
+
+div.nav-voice {
+  display: none;
+}
 
 /* --------------- MAIN --------------- */
 main {
