@@ -15,6 +15,23 @@ div.content-wrapper {
 }
 
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+}
+
+.flex-dir-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* --------------- SIDEBAR --------------- */
 header.sidebar {
   height: calc(100vh - 70px);
@@ -114,7 +131,7 @@ div.call-to-action {
 }
 
 button.upgrade {
-  border: 2px solid fefefe;
+  border: 2px solid #fefefe;
   color: #fefefe;
   border-radius: 50px;
   background-color: #080b12;
@@ -221,12 +238,10 @@ footer.taskbar {
   height: 70px;
   width: 100vw;
   background-color: #282828;
+  color: #878787;
   position: fixed;
   bottom: 0;
   left: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 footer div.container-left,
@@ -234,9 +249,32 @@ footer div.container-center,
 footer div.container-right {
   height: 100%;
   min-width: 200px;
+  /* da togliere */
   border: 1px solid lightslategray;
 }
 
+footer img.small-cover {
+  width: 40px;
+}
+
+.progress {
+  margin: 1rem;
+  width: 200px;
+  background-color: #5a5a5a;
+  border-radius: 25px;
+  height: 4px;
+  position: relative;
+}
+
+.progress .progress-bar {
+  height: 100%;
+  width: 20%;
+  background-color: #c1c1c1;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 
