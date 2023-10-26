@@ -24,6 +24,7 @@ div.content-wrapper {
 .flex-centered {
   display: flex;
   align-items: center;
+  gap: .5rem;
 }
 
 .flex-dir-column {
@@ -31,11 +32,12 @@ div.content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: .1rem;
 }
 
 /* --------------- SIDEBAR --------------- */
 header.sidebar {
-  height: calc(100vh - 70px);
+  height: calc(100vh -90px);
   width: 50px;
   background-color: black;
 }
@@ -115,7 +117,7 @@ i.fa-square-plus {
 
 /* --------------- MAIN --------------- */
 main {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 90px);
   width: calc(100vw - 50px);
   background-color: #141922;
   overflow: auto;
@@ -236,7 +238,7 @@ article p.author {
 
 /* --------------- TASKBAR --------------- */
 footer.taskbar {
-  height: 70px;
+  height: 90px;
   width: 100vw;
   background-color: #282828;
   color: #878787;
@@ -250,13 +252,10 @@ footer div.container-center,
 footer div.container-right {
   height: 100%;
   border: 1px solid lightslategray;
-  min-width: 150px;
+  /* min-width: 150px; */
+  padding: .5rem;
 }
 
-/* footer div.container-left,
-footer div.container-right {
-  width: 200px;
-} */
 
 footer div.container-center {
   flex-grow: 3;
@@ -266,9 +265,17 @@ footer img.small-cover {
   width: 40px;
 }
 
+.ongoing-t-wrapper {
+  padding: 0 .5rem;
+}
+
+.music-buttons {
+  width: 150px;
+}
+
 .progress-wrapper {
-  border: solid 2px red;
-  width: 70%;
+  width: 50%;
+  min-width: 100px;
   margin: 0 auto;
 }
 
