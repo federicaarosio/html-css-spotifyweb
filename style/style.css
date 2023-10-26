@@ -30,6 +30,7 @@ div.content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /* --------------- SIDEBAR --------------- */
@@ -248,30 +249,39 @@ footer div.container-left,
 footer div.container-center,
 footer div.container-right {
   height: 100%;
-  /* min-width: 200px; */
-  /* da togliere */
   border: 1px solid lightslategray;
+  min-width: 150px;
 }
 
-footer div.container-left,
+/* footer div.container-left,
 footer div.container-right {
   width: 200px;
+} */
+
+footer div.container-center {
+  flex-grow: 3;
 }
 
 footer img.small-cover {
   width: 40px;
 }
 
+.progress-wrapper {
+  border: solid 2px red;
+  width: 70%;
+  margin: 0 auto;
+}
+
 .progress {
-  margin: 1rem;
-  width: 200px;
+  width: 100%;
+  margin: 0 auto;
   background-color: #5a5a5a;
   border-radius: 25px;
   height: 4px;
   position: relative;
 }
 
-.progress .progress-bar {
+.progress-bar {
   height: 100%;
   width: 20%;
   background-color: #c1c1c1;
