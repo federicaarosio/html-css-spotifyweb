@@ -335,6 +335,27 @@ div.container-center .fa-circle-play:hover {
   position: absolute;
   top: 0;
   left: 0;
+  position: relative;
+}
+
+.progress-bar:hover {
+  background-color: #adff2f;
+}
+
+.dot-hover {
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  transform: translate(50%, 50%);  
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+  display: none;
+}
+
+.progress-bar:hover .dot-hover {
+  display: block;
 }
 
 
