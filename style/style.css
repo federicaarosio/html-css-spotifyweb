@@ -141,7 +141,12 @@ button.upgrade {
   padding: .5rem 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  margin-right: .5rem;
+  margin-right: .7rem;
+  transition: .2s;
+}
+
+button.upgrade:hover {
+  transform: scale(1.1);
 }
 
 /* Main-header */
@@ -251,7 +256,6 @@ footer div.container-left,
 footer div.container-center,
 footer div.container-right {
   height: 100%;
-  border: 1px solid lightslategray;
   padding: .5rem;
 }
 
