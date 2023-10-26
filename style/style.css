@@ -115,6 +115,10 @@ i.fa-square-plus {
   font-size: 2.5rem;
 }
 
+.white-hover:hover {
+  color: white;
+}
+
 /* --------------- MAIN --------------- */
 main {
   height: calc(100vh - 90px);
@@ -189,8 +193,6 @@ ul.top-menu li.menu-list::before {
 section.recently-played,
 section.made-for,
 section.popular {
-  min-height: 200px;
-  /* Da togliere */
   padding: .5rem;
 }
 
