@@ -33,6 +33,9 @@ div.content-wrapper {
   gap: .1rem;
 }
 
+
+
+
 /* --------------- SIDEBAR --------------- */
 header.sidebar {
   height: calc(100vh -90px);
@@ -127,6 +130,9 @@ i.fa-square-plus {
   text-decoration: underline;
 }
 
+
+
+
 /* --------------- MAIN --------------- */
 main {
   height: calc(100vh - 90px);
@@ -199,7 +205,7 @@ ul.top-menu li.menu-list::before {
 section.recently-played,
 section.made-for,
 section.popular {
-  padding: .5rem;
+  padding: 1rem;
 }
 
 main .row {
@@ -404,9 +410,9 @@ div.container-center .fa-circle-play:hover {
   padding: .5rem 1rem;
 }
 
-  li.left-border-green {
+  li.active {
     border-left: 2px solid #adff2f;
-    display: inline-block;
+    display: inline-block;;
   }
 
   .song-author-name {
