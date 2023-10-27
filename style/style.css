@@ -117,6 +117,9 @@ i.fa-square-plus {
 .white-hover:hover {
   color: white;
 }
+.underline-hov:hover {
+  text-decoration: underline;
+}
 
 /* --------------- MAIN --------------- */
 main {
@@ -169,7 +172,7 @@ ul.top-menu li {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: .6rem;
+  font-size: .7rem;
   width: calc(100% / 4);
   padding: .5rem 0;
 }
@@ -313,7 +316,7 @@ div.container-center .fa-circle-play:hover {
 
 .progress-wrapper {
   width: 50%;
-  min-width: 100px;
+  min-width: 80px;
   margin: 0 auto;
 }
 
@@ -337,7 +340,7 @@ div.container-center .fa-circle-play:hover {
   position: relative;
 }
 
-.progress-bar:hover {
+.progress:hover .progress-bar {
   background-color: #adff2f;
 }
 
@@ -353,7 +356,7 @@ div.container-center .fa-circle-play:hover {
   display: none;
 }
 
-.progress-bar:hover .dot-hover {
+.progress:hover .dot-hover {
   display: block;
 }
 
