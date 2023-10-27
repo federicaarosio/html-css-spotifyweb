@@ -9,11 +9,10 @@ body {
   font-size: .8rem;
 }
 
-
+/* --------------- Flexbox --------------- */
 div.content-wrapper {
   display: flex;
 }
-
 
 .flex-space-between {
   display: flex;
@@ -31,7 +30,6 @@ div.content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   gap: .1rem;
 }
 
@@ -47,7 +45,6 @@ nav.column {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  /* font-weight: bold; */
 }
 
 nav.column li,
@@ -96,6 +93,7 @@ hr {
   background-color: black;
   color: #6e6e6e;
   height: 1px;
+  display: none;
 }
 
 div.nav-voice {
@@ -154,7 +152,6 @@ button.upgrade {
   background-color: #080b12;
   padding: .5rem 1rem;
   text-transform: uppercase;
-  /* font-weight: bold; */
   margin-right: .9rem;
   transition: .2s;
 }
@@ -179,7 +176,6 @@ ul.top-menu {
 ul.top-menu li {
   text-align: center;
   text-transform: uppercase;
-  /* font-weight: bold; */
   font-size: .7rem;
   width: calc(100% / 4);
   padding: .5rem 0;
@@ -375,6 +371,7 @@ div.container-center .fa-circle-play:hover {
 
 
 
+
 /* --------------- MEDIA QUERIES --------------- */
 
 /* -- S: screen almeno 576px -- */
@@ -415,6 +412,10 @@ div.container-center .fa-circle-play:hover {
   .song-author-name {
     display: flex;
     flex-direction: row;
+  }
+
+  hr {
+    display: block;
   }
 }
 
