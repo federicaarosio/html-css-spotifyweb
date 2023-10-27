@@ -47,7 +47,7 @@ nav.column {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 nav.column li,
@@ -88,6 +88,14 @@ ul.account-profile > li {
 
 li.nav-element {
   border-left: 2px solid transparent;
+}
+
+hr {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  background-color: black;
+  color: #6e6e6e;
+  height: 1px;
 }
 
 div.nav-voice {
@@ -146,7 +154,7 @@ button.upgrade {
   background-color: #080b12;
   padding: .5rem 1rem;
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-right: .9rem;
   transition: .2s;
 }
@@ -171,7 +179,7 @@ ul.top-menu {
 ul.top-menu li {
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: .7rem;
   width: calc(100% / 4);
   padding: .5rem 0;
@@ -244,6 +252,7 @@ article .img-wrapper:hover i.play-on-hover {
 
 div.text-wrapper {
   text-align: center;
+  padding: 0.5rem 0;
 }
 
 article img.cover-pop {
@@ -258,7 +267,7 @@ h1 {
 
 h2 {
   font-size: .7rem;
-  padding: .5rem 0;
+  padding: 0 0 0.5rem 0;
 }
 
 article p.author {
@@ -268,6 +277,10 @@ article p.author {
 
 .white-text {
   color: white;
+}
+
+.bold-text {
+  font-weight: bold;;
 }
 
 
